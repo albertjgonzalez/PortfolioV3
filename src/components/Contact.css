@@ -1,0 +1,12 @@
+.Contact{
+    height: 100vh;
+  }
+
+  .Contact-Content-Wrapper{
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    align-self: center;
+    align-content: center;
+    border: solid black;
+  }

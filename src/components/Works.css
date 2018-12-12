@@ -1,0 +1,33 @@
+.Works{
+    height: 100vh;
+  }
+
+  .Work-Content-Wrapper{
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    align-self: center;
+    align-content: center;
+  }
+  
+  .Work-Row-Top{
+    display: block;
+    background-color: white;
+    width: 100%;
+    border: solid black;
+    height: 30vh; 
+  }
+  .Work-Row-Center{
+    display: block;
+    background-color: white;
+    width: 100%;
+    border: solid black;
+    height: 30vh; 
+  }
+  .Work-Row-Bottom{
+    display: block;
+    background-color: white;
+    width: 100%;
+    border: solid black;
+    height: 30vh; 
+  }

@@ -1,0 +1,26 @@
+.About{
+    height: 100vh;
+  }
+
+.About-Content-Wrapper{
+  height: 80vh;
+  width: 80%;
+  margin: auto;
+  align-self: center;
+  align-content: center;
+}
+
+.About-Row-Top{
+  display: block;
+  background-color: white;
+  width: 100%;
+  border: solid black;
+  height: 40vh; 
+}
+.About-Row-Bottom{
+  display: block;
+  background-color: white;
+  width: 100%;
+  border: solid black;
+  height: 40vh; 
+}
