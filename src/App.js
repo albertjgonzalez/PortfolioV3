@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Drawer, Header, HeaderRow, HeaderTabs, Tab, Content } from 'react-mdl';
+import { Layout, Header, HeaderTabs, Tab, Content } from 'react-mdl';
 import Home from './components/Home';
 import About from './components/About';
 import Works from './components/Works';

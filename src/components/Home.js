@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Home.css'
+import './Home.css';
 
 
 class Navbar extends Component {
@@ -7,13 +7,13 @@ class Navbar extends Component {
       return (
         <div className='Home'>
         <div className='name-wrapper'>
-        <h1>Albert</h1>
-        <h1> J </h1>
-        <h1>Gonzalez</h1>
+        <span>Albert</span>
+        <span> J </span><br />
+        <span>Gonzalez</span>
         </div>
         <div className='title-wrapper'>
-        <h1>Web </h1>
-        <h1>Developer</h1>
+        <span>Web</span><br />
+        <span>Developer</span>
         </div>
         </div>
       )

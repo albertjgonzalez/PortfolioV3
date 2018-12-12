@@ -1,8 +1,30 @@
+  @font-face {
+    font-family: 'SourceSansPro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf'); /* IE9 Compat Modes */
+    src: local('SourceSansPro'), local('SourceSansPro'),
+         url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('woff'), /* Modern Browsers */
+         url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf') format('svg'); /* Legacy iOS */
+  }
 .Home{
     height: 100vh;
     text-align: center;
+    font-family: SourceSansPro;
     align-items: center;
+    font-weight: 100;
   }
-h1{
-    margin-bottom: 2px;
+span{
+    line-height: 85px;
+    font-size: 85px;
+}
+.name-wrapper{
+    margin: 5%;
+}
+.title-wrapper{
+    margin: 10%;
+    align-items: left;
 }
