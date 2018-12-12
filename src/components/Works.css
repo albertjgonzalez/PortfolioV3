@@ -11,23 +11,38 @@
   }
   
   .Work-Row-Top{
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: white;
     width: 100%;
-    border: solid black;
     height: 30vh; 
   }
   .Work-Row-Center{
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: white;
     width: 100%;
-    border: solid black;
     height: 30vh; 
   }
   .Work-Row-Bottom{
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: white;
     width: 100%;
-    border: solid black;
     height: 30vh; 
   }
+
+  .Picture-Container{
+    flex: 1;
+    height: 75%;
+    background-color: aqua;
+  }
+  
+  .Work-Description{
+  flex: 1;
+  padding: 5%;
+  }
+  
