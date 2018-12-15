@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css';
-
+import gif from '../images/home2.gif';
 
 class Navbar extends Component {
     render() {
@@ -15,7 +15,11 @@ class Navbar extends Component {
         <span>Web</span><br />
         <span>Developer</span>
         </div>
+
+        <img id="Home-Img"src={gif} alt={'gif'} />
+
         </div>
+        
       )
     }
 }

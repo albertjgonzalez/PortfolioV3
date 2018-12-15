@@ -1,5 +1,6 @@
 .Contact{
-    height: 100vh;
+    height: 60vh;
+    margin-top:5%; 
   }
 
   .Contact-Content-Wrapper{
@@ -8,5 +9,18 @@
     margin: auto;
     align-self: center;
     align-content: center;
-    border: solid black;
   }
+
+TextField{
+    margin: 5%;
+  }
+
+.contact-Image{
+  width: 150%;
+  max-height: 50%;
+  max-width: 700px;
+  position: absolute;
+  left: 30%;
+  top: 230%;
+  z-index: -1;
+}
