@@ -1,6 +1,20 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Raleway/Raleway-Medium.ttf'); /* IE9 Compat Modes */
+  src: local('Raleway'), local('Raleway'),
+       url('../fonts/Raleway/Raleway-Medium.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Raleway/Raleway-Medium.ttf') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Raleway/Raleway-Medium.ttf') format('woff'), /* Modern Browsers */
+       url('../fonts/Raleway/Raleway-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Raleway/Raleway-Medium.ttf') format('svg'); /* Legacy iOS */
+}
 .Contact{
     height: 60vh;
     margin-top:5%; 
+    font-family: Raleway;
+  font-size: 16px;
   }
 
   .Contact-Content-Wrapper{

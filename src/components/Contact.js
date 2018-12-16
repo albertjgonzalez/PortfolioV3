@@ -30,13 +30,13 @@ class Contact extends Component {
 <br />
 <Textfield
     onChange={() => {}}
-    label="Message.."
+    label="Message"
     floatingLabel
     style={{width: '90%'}}
 />
+        <Button primary>Send</Button>
         </div>
         <img className='contact-Image'src={blue} alt='blue'/>
-        <Button primary>Send</Button>
     </div>
     
     
